@@ -1,10 +1,10 @@
 import './App.css';
-import ContextTutorial from './Hooks/useContext/ContextTutorial';
+import MemoTutorial from './Hooks/useMemo/MemoTutorial';
 
 function App() {
   return (
     <div className="App">
-      <ContextTutorial></ContextTutorial>
+      <MemoTutorial></MemoTutorial>
     </div>
   );
 }
