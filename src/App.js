@@ -1,10 +1,10 @@
 import './App.css';
-import ImperativeHandle from './Hooks/useImperativeHandle/ImperativeHandle';
+import ContextTutorial from './Hooks/useContext/ContextTutorial';
 
 function App() {
   return (
     <div className="App">
-      <ImperativeHandle></ImperativeHandle>
+      <ContextTutorial></ContextTutorial>
     </div>
   );
 }
