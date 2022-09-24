@@ -1,10 +1,10 @@
 import './App.css';
-import MemoTutorial from './Hooks/useMemo/MemoTutorial';
+import CallbackTutorial from './Hooks/useCallBack/CallbackTutorial';
 
 function App() {
   return (
     <div className="App">
-      <MemoTutorial></MemoTutorial>
+      <CallbackTutorial></CallbackTutorial>
     </div>
   );
 }
